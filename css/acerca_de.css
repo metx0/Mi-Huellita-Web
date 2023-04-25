@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* Importamos la fuente Roboto de Google Fonts */
+
+* {
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.header {
+    background-color: darkcyan;
+}
+
+.header__h1 {
+    text-align: center;
+    color: azure;
+    background-color: rgb(107, 134, 64);
+    padding: 0.35em;
+}
+
+.header__ul {
+    padding: 0.8em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__ul li a {
+    color: azure;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header__ul li a:hover {
+    color: black;
+}
+
+/* .header__ul li a:visited {
+    color: red;
+} */

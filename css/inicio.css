@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* Importamos la fuente Roboto de Google Fonts */
+
+* {
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.header {
+    background-color: darkcyan;
+}
+
+.header__h1 {
+    text-align: center;
+    color: azure;
+    background-color: rgb(107, 134, 64);
+    padding: 0.35em;
+}
+
+.header__ul {
+    padding: 0.8em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__ul li a {
+    color: azure;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header__ul li a:hover {
+    color: black;
+}
+
+.main {
+    width: 90%;
+    margin: auto;
+}
+
+.article {
+    padding: 1.5em;
+    margin-top: 1.8em;
+}
+
+#article1 {
+    background-color: rgb(196, 243, 243);
+}
+
+#article2 {
+    background-color:rgb(211, 211, 192);
+}
+
+#article3 {
+    background-color: rgb(235, 235, 163);
+}
+
+.article p {
+    width: 50%;
+    margin-top: 1rem;;
+    text-align: justify;
+    line-height: 1.5;
+} 
+
+.footer {
+    margin-top: 1.3em;
+    background-color: crimson;
+    padding: 1.8em;
+}
+
+.footer p {
+    color: rgb(223, 233, 241);
+}
+
+.footer p a {
+    color: rgb(188, 193, 197);
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.footer p a:hover {
+    color: black;
+    font-weight: bolder;
+}
