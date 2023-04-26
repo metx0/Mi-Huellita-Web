@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/inicio.css">
+        <link rel="stylesheet" href="css/inicio.css"> 
+        <!-- vvv se agrega los cdn de bootstrap para poder usar el navbar vvv -->
         <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -13,11 +14,12 @@
         <title>Mi Huellita</title>
     </head>
     <body>
+        <!-- se le implementa el nav bar de Bootstrap en dentro del <section></section> -->
         <section id="nav-bar">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="index.html"> <img src="img\logo.png" width="100px" height="100px"  alt=""></a>
-                  <!-- <a class="navbar-brand" href="index.html">Mi huellita</a> -->
+                  <!-- <a class="navbar-brand" href="index.html">Mi huellita</a> (QUITE ESTO PARA VER SI PODIA HACER EL IMAGEN EL INICIO) atte: chable -->
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -40,7 +42,8 @@
                 </div>
               </nav>
         </section>
-
+        
+        <!-- Clase "main" el cual contiene los cuerpos de textos con sus respectivos headers -->
         <main class="main">
             <article class="article" id="article1">
                     <h2>Título 1</h2>
@@ -67,6 +70,8 @@
                 </p>
             </article>
         </main>
+        
+        <!-- footer que aparece en la parte inferior de la pagina -->
         <footer class="footer">
             <p>Creado por el equipo de <b>Mi Huellita</b></p><br>
             <p><em>@2023 No Copyright yet</em></p><br>
