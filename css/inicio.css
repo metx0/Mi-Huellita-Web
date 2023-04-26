@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 /* Importamos la fuente Roboto de Google Fonts */
 
+/* CSS reset */
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box; 
 }
 
@@ -12,6 +14,7 @@ html {
     font-size: 1.2rem;
 }
 
+/* Estilos del header */
 .header {
     background-color: darkcyan;
 }
@@ -30,6 +33,7 @@ html {
     justify-content: space-evenly;
 }
 
+/* Estilos de los enlaces en el header */
 .header__ul li a {
     color: azure;
     font-weight: 600;
@@ -38,8 +42,15 @@ html {
 
 .header__ul li a:hover {
     color: black;
+    font-weight: 600;
 }
 
+.header__ul li a:active {
+    color: lightgray;
+    font-weight: 600;
+}
+
+/* Estilo del main y de cada article */
 .main {
     width: 90%;
     margin: auto;
@@ -69,6 +80,7 @@ html {
     line-height: 1.5;
 } 
 
+/* Estilo del footer */
 .footer {
     margin-top: 1.3em;
     background-color: crimson;
@@ -82,10 +94,11 @@ html {
 .footer p a {
     color: rgb(188, 193, 197);
     font-weight: 800;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .footer p a:hover {
     color: black;
     font-weight: bolder;
+    text-decoration: underline;
 }
