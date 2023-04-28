@@ -1,50 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 /* Importamos la fuente Roboto de Google Fonts */
 
-/* CSS reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
 
-html {
-    background-color: aliceblue;
-    font-size: 1.2rem;
-}
-
-/* Estilos del navbar */
-/* Aquí está contenido todo el navbar */
-#nav-bar { 
+/* Estilo para el fondo del nav-bar */
+section{ 
     color: azure;
     background-color: rgb(107, 134, 64);
-    padding: 0.2rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.nav-link {
-    font-size: 1.2em;
-    font-weight: 600;
-    color: aliceblue;
-    margin-left: 15px;
-    margin-right: 20px;
-}
-
-.nav-link:hover {
-    color: rgb(173, 171, 169);
-}
-
-.navbar-brand{
-    margin-left: 15px;
-    margin-right: 30px;
     padding: 0.35em;
 }
 
-/* Estilos del main y de cada article */
-.main {
+/* Estilo del banner de la pagina de inicio */
+
+html, body {
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:rgb(223, 233, 241);
+}
+
+.main-image{
+    position: relative;
+    background: url(banner2.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
+    overflow: hidden;
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: azure;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container h1{
+    margin: 0;
+    font-size: 70px;
+}
+
+.container h1 span{
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen{
+    margin: 20px;
+    display: block;
+    font-size: 22px;
+    padding: 0.75em;    
+}
+
+.button{
+    color: black;
+    padding: 10px;
+    background: white;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+    padding: .8em;
+}
+
+.button:hover{
+    opacity: .6;
+}
+
+/* Estilos del main y articulos (NO USADOS EN LA PAGINA DE INICIO) */
+
+/* .main {
     width: 90%;
     margin: auto;
-    font-family: 'Roboto', sans-serif;
 }
 
 .article {
@@ -64,45 +96,56 @@ html {
     background-color: rgb(235, 235, 163);
 }
 
-/* El estilo de cada encabezado h2 dentro de la clase article */
-.article h2 {
-    font-weight: 800;
-    font-size: 1.5em;
-}
-
 .article p {
     width: 50%;
     margin-top: 1rem;;
     text-align: justify;
     line-height: 1.5;
-} 
+}  */
+
 
 /* Estilo del footer */
 .footer {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 1.3em;
+    /* margin-top: 1.3em; */
     background-color: crimson;
-    padding: 1.5em;
+    padding: 3em;
 }
 
 .footer p {
     color: rgb(223, 233, 241);
-    margin-bottom: 0;
 }
 
-.footer__p {
-    margin-top: 0.8rem;
-}
-
-/* Estilos del link de contacto */
-.contacto {
+.footer p a {
     color: rgb(188, 193, 197);
-    font-weight: 600;
+    font-weight: 800;
     text-decoration: underline;
 }
 
-.contacto:hover {
+.footer p a:hover {
     color: black;
     font-weight: bolder;
-    text-decoration: underline;
+}
+
+/* estilos del navbar */
+.nav-link{
+    font-size: x-large;
+    color:aliceblue;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    color: aliceblue;
+    margin-left: 15px;
+    margin-right: 30px;
+    padding: 0.35em;
+}
+
+.navbar-brand:hover{
+    opacity: .8;
+}
+
+.container-fluid a:hover{
+    color: rgb(146, 141, 139);
 }
