@@ -5,20 +5,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estadisticas.css">
-        <!-- aqui se importa el bootstrap junto con los script -->
-        <link rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+        <!-- Se importa el Bootstrap junto con los scripts -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
         <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-        <title>Sobre nosotros</title>
+        <title>Estadísticas</title>
     </head>
     <body>
+      <!-- Se implementa el navbar de Bootstrap -->
       <section id="nav-bar">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"> <img src="img\logo.png" width="100px" height="100px"  alt=""></a>
-              <!-- <a class="navbar-brand" href="index.html">Mi huellita</a> -->
+              <a class="navbar-brand" href="index.html"> <img src="img\logo.png" width="75px" height="75px"  alt="Nuestro logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -42,8 +42,8 @@
           </nav>
     </section>
         <main class="main">
-          <div class="container">
-              <h2>Contesta nuestra encuesta!</h2>
+          <article class="article">
+              <h2>Resultados de la encuesta</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur officiis cumque aliquam beatae quisquam 
                 inventore maxime distinctio exercitationem voluptatem numquam nam voluptas facere accusantium, a, omnis officia 
@@ -55,8 +55,8 @@
                 vitae dolor laboriosam.                    
               </p>
           </article>
-        </div>
-              <h2>¿Qué hacemos?</h2>
+          <article class="article">
+              <h2>Contesta nuestra encuesta</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur officiis cumque aliquam beatae quisquam 
                 inventore maxime distinctio exercitationem voluptatem numquam nam voluptas facere accusantium, a, omnis officia 
@@ -69,10 +69,10 @@
               </p>
           </article>
       </main>
-        <footer class="footer">
-          <p>Creado por el equipo de <b>Mi Huellita</b></p><br>
-          <p><em>@2023 No Copyright yet</em></p><br>
-          <p><a href="mailto:migtorruco@gmail.com" target="_blank">Contáctanos</a></p>            
-      </footer>
+      <footer class="footer">
+        <p>Creado por el equipo de <a href="acerca_de.html" class="contacto">Mi Huellita</a></p>
+        <p class="footer__p"><em>© Todos los derechos reservados 2023</em></p>
+        <p class="footer__p"><a href="mailto:mihuellitaproyecto@gmail.com" target="_blank" class="contacto">Contáctanos</a></p>            
+    </footer>
     </body>
 </html>
