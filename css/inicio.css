@@ -30,6 +30,14 @@ html, body {
     overflow: hidden;
 
 }
+ 
+
+
+.text-container {
+    width: 80%;
+    text-align: justify;
+  }
+
 .container{
     position: absolute;
     top: 50%;
@@ -149,3 +157,4 @@ html, body {
 .container-fluid a:hover{
     color: rgb(146, 141, 139);
 }
+
