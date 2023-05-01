@@ -41,7 +41,7 @@ html {
 
 /* Estilo del main y de cada article */
 .main {
-    width: 90%;
+    width: 70%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
@@ -55,21 +55,88 @@ html {
 /* El estilo de cada encabezado h2 dentro de la clase article */
 .article h2 {
     font-weight: 800;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .article p {
-    width: 50%;
     margin-top: 1.2rem;;
     text-align: left;  
     line-height: 1.5;
 }
 
+/* Estilos de los articles referentes a los consejos */
+.consejo {
+    border: 1px solid lightgrey;
+    border-radius: 0.6rem;
+    background-color: whitesmoke; 
+    /* Transición */
+    transition: box-shadow 0.3s ease;
+}
+
+/* Al pasar el mouse por encima se muestra una sombra al elemento */
+.consejo:hover {
+    box-shadow: 0.1rem 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.consejo h2 {
+    font-size: 1.2em;
+}
+
+.consejo p {
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+/* Los estilos para el título, el cual es un enlace */
+.consejo h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.consejo h2 a:hover {
+    color: rgb(3, 80, 3);
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+/* Los estilos para los enlaces que dicen "Ver artículo" */
+.ver-art {
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ver-art:hover {
+    color: rgb(3, 80, 3);
+    font-weight: 900;
+}
+
+.content {
+    overflow: hidden;
+}
+
+/* Estilo aplicado a todas las imágenes, menos el margin-top de la primera, que se sobreescribe después */
+.content img {
+    float: right;
+    margin-top: 0.7rem;
+    margin-left: 2rem;
+}
+
+/* La primer imagen no tiene un margin-top */
+#img-plantas {
+    margin-top: 0;
+}
+
+#article-2, #article-3, #article-4 {
+    margin-top: 3rem;
+}
+
 /* Estilo del footer */
 .footer {
     font-family: 'Roboto', sans-serif;
-    margin-top: 1.3em;
-    background-color: crimson;
+    margin-top: 2.2em;
+    background-color: #0F1A20;
     padding: 1.5em;
 }
 
@@ -90,7 +157,7 @@ html {
 }
 
 .contacto:hover {
-    color: black;
+    color: rgb(151, 154, 156);
     font-weight: bolder;
     text-decoration: underline;
 }
