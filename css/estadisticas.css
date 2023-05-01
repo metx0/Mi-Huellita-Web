@@ -42,7 +42,7 @@ html {
 
 /* Estilo del main y de cada article */
 .main {
-    width: 90%;
+    width: 80%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
@@ -55,21 +55,29 @@ html {
 
 .article h2 {
     font-weight: 800;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .article p {
-    width: 50%;
     margin-top: 1.2rem;;
-    text-align: left;  
+    text-align: justify;  
     line-height: 1.5;
+}
+
+.article ul {
+    list-style-position: inside;
+    font-weight: bold;
+}
+
+.img {
+    width: 100%;
 }
 
 /* Estilo del footer */
 .footer {
     font-family: 'Roboto', sans-serif;
     margin-top: 1.3em;
-    background-color: crimson;
+    background-color: #0F1A20;
     padding: 1.5em;
 }
 
@@ -90,7 +98,7 @@ html {
 }
 
 .contacto:hover {
-    color: black;
+    color: rgb(151, 154, 156);
     font-weight: bolder;
     text-decoration: underline;
 }
