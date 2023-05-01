@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 /* Importamos la fuente Roboto de Google Fonts */
 
-/* CSS reset */
 * {
     margin: 0;
     padding: 0;
@@ -42,35 +41,51 @@ html {
 
 /* Estilo del main y de cada article */
 .main {
-    width: 80%;
+    width: 90%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 }
 
 .article {
-    padding: 1.5em;
-    margin-top: 0.8em;
+    padding: 1.2em;
+    /* margin-top: 0.8em; */
 }
 
+/* El estilo de cada encabezado h2 dentro de la clase article */
 .article h2 {
     font-weight: 800;
-    font-size: 1.2em;
+    font-size: 1.5em;
+}
+
+#article-1 {
+    margin-top: 1rem;
 }
 
 .article p {
+    width: 80%;
     margin-top: 1.2rem;;
-    text-align: justify;  
+    text-align: left;  
     line-height: 1.5;
 }
 
-.article ul {
-    list-style-position: inside;
-    font-weight: bold;
+/* Estilo del form */
+#h2_form {
+    margin-bottom: 1.3rem;
 }
 
-.img {
-    width: 100%;
+.input, #boton {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.9em;   
+}
+
+.container-email {
+    margin-top: 0.8rem;
+}
+
+#boton {
+    margin-top: 0.8rem;
 }
 
 /* Estilo del footer */
@@ -90,7 +105,7 @@ html {
     margin-top: 0.8rem;
 }
 
-/* Estilo de los links en el footer */
+/* Estilos del link de contacto */
 .contacto {
     color: rgb(188, 193, 197);
     font-weight: 600;

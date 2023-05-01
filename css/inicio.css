@@ -9,7 +9,7 @@
 }
 
 html {
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     font-size: 1.2rem;
 }
 
@@ -17,7 +17,7 @@ html {
 /* Aquí está contenido todo el navbar */
 #nav-bar { 
     color: azure;
-    background-color: rgb(107, 134, 64);
+    background-color: #6b8640; 
     padding: 0.2rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -40,48 +40,92 @@ html {
     padding: 0.35em;
 }
 
-/* Estilos del main y de cada article */
 .main {
-    width: 90%;
-    margin: auto;
     font-family: 'Roboto', sans-serif;
 }
 
-.article {
-    padding: 1.5em;
-    margin-top: 1.8em;
-}
+/* Estilos del banner y el texto */
+.main-image {
+    position: relative;
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
+    overflow: hidden;
+}   
 
-#article1 {
-    background-color: rgb(196, 243, 243);
-}
-
-#article2 {
-    background-color:rgb(211, 211, 192);
-}
-
-#article3 {
-    background-color: rgb(235, 235, 163);
-}
-
-/* El estilo de cada encabezado h2 dentro de la clase article */
-.article h2 {
+.main-image h1 {
     font-weight: 800;
-    font-size: 1.5em;
 }
 
-.article p {
-    width: 50%;
-    margin-top: 1rem;;
+.text-container {
+    width: 80%;
     text-align: justify;
-    line-height: 1.5;
-} 
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: azure;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 70px;
+}
+
+.container h1 span {
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen {
+    margin: 20px;
+    display: block;
+    font-size: 22px;
+    padding: 0.75em;    
+}
+
+/* Botón de "Conócenos" */
+.button {
+    color: black;
+    font-weight: 900;
+    padding: 10px;
+    background: white;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+    padding: .8em;
+}
+
+.button:hover {
+    opacity: .6;
+}
+
+.article-text {
+    width: 95%;
+    margin: auto;
+}
+
+.article-text h2 {
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+}
+
+.text-container ul {
+    list-style-position: inside;
+}
 
 /* Estilo del footer */
 .footer {
     font-family: 'Roboto', sans-serif;
     margin-top: 1.3em;
-    background-color: crimson;
+    background-color: #0F1A20;
     padding: 1.5em;
 }
 
@@ -102,7 +146,7 @@ html {
 }
 
 .contacto:hover {
-    color: black;
+    color: rgb(151, 154, 156);
     font-weight: bolder;
     text-decoration: underline;
 }
