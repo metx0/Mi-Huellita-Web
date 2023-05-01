@@ -92,7 +92,7 @@ html {
 .footer {
     font-family: 'Roboto', sans-serif;
     margin-top: 1.3em;
-    background-color: crimson;
+    background-color: #0F1A20;
     padding: 1.5em;
 }
 
@@ -113,7 +113,7 @@ html {
 }
 
 .contacto:hover {
-    color: black;
+    color: rgb(151, 154, 156);
     font-weight: bolder;
     text-decoration: underline;
 }
