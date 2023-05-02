@@ -50,6 +50,7 @@ html {
 .article {
     padding: 1.5em;
     margin-top: 0.8em;
+    overflow: hidden;
 }
 
 /* El estilo de cada encabezado h2 dentro de la clase article */
@@ -59,17 +60,23 @@ html {
 }
 
 .article p {
-    width: 50%;
     margin-top: 1.2rem;;
-    text-align: left;  
+    text-align: justify;  
     line-height: 1.5;
+}
+
+.img {
+    float: right;
+    width: 40%;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Estilo del footer */
 .footer {
     font-family: 'Roboto', sans-serif;
     margin-top: 1.3em;
-    background-color: crimson;
+    background-color: #0F1A20;
     padding: 1.5em;
 }
 
@@ -90,7 +97,7 @@ html {
 }
 
 .contacto:hover {
-    color: black;
+    color: rgb(151, 154, 156);
     font-weight: bolder;
     text-decoration: underline;
 }
